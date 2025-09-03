@@ -1,0 +1,21 @@
+{
+  "name": "kyrrex-exchanger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "setup": "npm i && npm i typescript -g",
+    "start": "npx ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.6",
+    "@types/express": "^5.0.3"
+  }
+}
